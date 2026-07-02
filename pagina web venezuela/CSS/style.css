@@ -639,3 +639,541 @@ footer{
     padding:40px 20px;
 
 }
+
+.ficha-persona{
+
+    max-width:900px;
+
+    margin:50px auto;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+
+}
+
+.cabecera-ficha{
+
+    text-align:center;
+
+}
+
+.cabecera-ficha img{
+
+    width:280px;
+
+    height:350px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.20);
+
+}
+
+.estado{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    background:#d32f2f;
+
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+}
+
+.cabecera-ficha h1{
+
+    color:#003366;
+
+    margin-top:25px;
+
+    font-size:34px;
+
+}
+
+.cabecera-ficha p{
+
+    margin:10px 0;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+.volver{
+
+    margin:30px;
+
+}
+
+.volver a{
+
+    text-decoration:none;
+
+    color:#003366;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+}
+
+.volver a:hover{
+
+    color:#d32f2f;
+
+}
+
+.informacion-persona{
+
+    margin-top:50px;
+
+}
+
+.informacion-persona h2{
+
+    color:#003366;
+
+    margin-bottom:30px;
+
+    text-align:center;
+
+}
+
+.datos-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+}
+
+.dato{
+
+    background:#f5f5f5;
+
+    padding:20px;
+
+    border-radius:12px;
+
+}
+
+.dato strong{
+
+    display:block;
+
+    color:#003366;
+
+    margin-bottom:10px;
+
+}
+
+.dato span{
+
+    color:#444;
+
+}
+
+.galeria{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:25px;
+
+}
+
+.galeria img{
+
+    width:120px;
+
+    height:150px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.galeria img:hover{
+
+    transform:scale(1.08);
+
+}
+
+.desaparicion{
+
+    margin-top:50px;
+
+}
+
+.desaparicion h2{
+
+    color:#003366;
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.descripcion{
+
+    margin-top:50px;
+
+}
+
+.descripcion h2{
+
+    text-align:center;
+
+    color:#003366;
+
+    margin-bottom:25px;
+
+}
+
+.descripcion p{
+
+    background:#f7f7f7;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    line-height:1.8;
+
+    text-align:justify;
+
+}
+
+.contacto-caso{
+
+    margin-top:50px;
+
+}
+
+.contacto-caso h2{
+
+    text-align:center;
+
+    color:#003366;
+
+    margin-bottom:30px;
+
+}
+
+.boton-ficha{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 22px;
+
+    background:#003366;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.boton-ficha:hover{
+
+    background:#00509d;
+
+}
+
+
+.formulario-caso{
+
+    max-width:800px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+.formulario-caso h1{
+
+    text-align:center;
+
+    color:#003366;
+
+    margin-bottom:15px;
+
+}
+
+.formulario-caso p{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+    color:#555;
+
+}
+
+
+.formulario-caso form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.formulario-caso label{
+
+    margin-top:18px;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+}
+
+.formulario-caso input,
+.formulario-caso select,
+.formulario-caso textarea{
+
+    padding:14px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    font-size:16px;
+
+}
+
+.formulario-caso button{
+
+    margin-top:30px;
+
+    padding:15px;
+
+    background:#8B0000;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.formulario-caso button:hover{
+
+    background:#b30000;
+
+}
+
+.encontrados{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+}
+
+.encontrados h1{
+
+    text-align:center;
+
+    color:#003366;
+
+}
+
+
+.encontrados p{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.contenedor-encontrados{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.tarjeta-encontrado{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    text-align:center;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.tarjeta-encontrado img{
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:cover;
+
+}
+
+.tarjeta-encontrado h2{
+
+    color:#003366;
+
+    margin:20px;
+
+}
+
+.tarjeta-encontrado p{
+
+    color:green;
+
+    font-weight:bold;
+
+}
+
+.tarjeta-encontrado a{
+
+    display:inline-block;
+
+    margin:20px;
+
+    padding:12px 20px;
+
+    background:#003366;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+}
+
+
+.contacto{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:50px;
+
+}
+
+.contacto h1{
+
+    text-align:center;
+
+    color:#003366;
+
+}
+
+.contacto p{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.error404{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    text-align:center;
+
+}
+
+.error404 h1{
+
+    font-size:120px;
+
+    color:#8B0000;
+
+}
+
+.error404 h2{
+
+    margin-bottom:20px;
+
+}
+
+.error404 a{
+
+    margin-top:30px;
+
+    padding:15px 30px;
+
+    background:#003366;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+}
